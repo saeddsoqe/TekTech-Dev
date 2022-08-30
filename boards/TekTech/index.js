@@ -127,22 +127,6 @@ addBoard({
                 },         
                 {
                     xml: `
-                        <block type="display_draw_bitmap">
-                            <value name="x">
-                                <shadow type="math_number">
-                                    <field name="NUM">0</field>
-                                </shadow>
-                            </value>
-                            <value name="y">
-                                <shadow type="math_number">
-                                    <field name="NUM">0</field>
-                                </shadow>
-                            </value>
-                        </block>
-                    `
-                },
-                {
-                    xml: `
                         <block type="display_draw_line">
                             <value name="x1">
                                 <shadow type="math_number">
@@ -251,11 +235,8 @@ addBoard({
                         </block>
                     `
                 },
-                "display_Sin",
-                "display_Cos",
                 "display_fill",
                 "display_clear",
-                "display_show"
             ]
         },
         {
